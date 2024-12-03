@@ -5,14 +5,14 @@
     "notification": true,
     "approval": true,
     "premium": false,
-    "BOTNAME": "",
-    "BOTOWNER": "",
-    "PREFIX": "!",
+    "BOTNAME": "A Y A N",
+    "BOTOWNER": "A Y A N",
+    "PREFIX": ".",
     "OPERATOR": [
-        ""
+        "100052127176289"
     ],
     "ADMINBOT": [
-        ""
+        "100052127176289"
     ],
     "disabledcmds": [],
     "disabledevents": [],
