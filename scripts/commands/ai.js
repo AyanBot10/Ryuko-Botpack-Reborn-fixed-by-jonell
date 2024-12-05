@@ -39,7 +39,7 @@ const fontMapping = {
 
 function convertToBold(text) {
   return text.replace(/\*(.*?)\*/g, (match, p1) => [...p1].map(char => fontMapping[char] || char).join(''))
-    .replace(/### (.*?)(\n|$)/g, (match, p1) => `${[...p1].map(char => fontMapping[char] || char).join('')}`);
+    text.replace(/### (.*?)(\n|$)/g, (match, p1) => `${[...p1].map(char => fontMapping[char] || char).join('')}`);
 }
 
 module.exports.handleReply = async ({ handleReply, event, api }) => {
