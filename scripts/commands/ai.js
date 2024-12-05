@@ -3,7 +3,7 @@ module.exports.config = {
   version: "1.0.0",
   permission: 0,
   credits: "Jonell Magallanes",
-  prefix: true,
+  prefix: false,
   premium: false,
   description: "Educational AI chatbot powered by GPT-4 and image recognition.",
   category: "Utilities",
